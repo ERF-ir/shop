@@ -7,12 +7,14 @@ import Products from './Pages/Products'
 import SingleProduct from './Pages/SingleProduct'
 import SingleArticles from './Pages/SingleArticles'
 
+
 function App() {
 
 
   return (
     <>
         <div>header</div>
+      
       <Routes>
            <Route path="/" element={<Index/>}/>
            <Route path="products" element={<Products/>}/>
