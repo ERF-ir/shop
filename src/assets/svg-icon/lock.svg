@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.6" height="38.6" viewBox="0 0 38.6 38.6">
+  <g id="lock" transform="translate(-0.5 -0.5)">
+    <path id="Path_250" data-name="Path 250" d="M6,16.24V12.68C6,6.788,7.78,2,16.68,2S27.36,6.788,27.36,12.68v3.56" transform="translate(3.12)" fill="none" stroke="#0077c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_251" data-name="Path 251" d="M28.7,31.36H10.9c-7.12,0-8.9-1.78-8.9-8.9V18.9C2,11.78,3.78,10,10.9,10H28.7c7.12,0,8.9,1.78,8.9,8.9v3.56C37.6,29.58,35.82,31.36,28.7,31.36Z" transform="translate(0 6.24)" fill="none" stroke="#0077c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_252" data-name="Path 252" d="M16,16h.016" transform="translate(10.917 10.92)" fill="none" stroke="#0077c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_253" data-name="Path 253" d="M12,16h.016" transform="translate(7.796 10.92)" fill="none" stroke="#0077c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_254" data-name="Path 254" d="M7.995,16H8.01" transform="translate(4.676 10.92)" fill="none" stroke="#0077c5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>
