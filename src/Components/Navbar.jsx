@@ -14,10 +14,10 @@ function Navbar() {
                     <img src={logo} alt="" />
                 </div>
                 <ul className=" text-[#626F6F]  mr-16 flex-center gap-x-8">
-                    <li className="hover:text-green-500 hover:bg-green-200 p-2 rounded-full transition-all">لیست محصولات</li>
-                    <li className="hover:text-green-500 hover:bg-green-200 p-2 rounded-full transition-all">تماس باما</li>
-                    <li className="hover:text-green-500 hover:bg-green-200 p-2 rounded-full transition-all">درباره ما</li>
-                    <li className="hover:text-green-500 hover:bg-green-200 p-2 rounded-full transition-all">مقالات</li>
+                    <li className="hover:text-green-500 hover:bg-green-200 p-2 rounded-lg cursor-pointer transition-all">لیست محصولات</li>
+                    <li className="hover:text-green-500 hover:bg-green-200 p-2 rounded-lg cursor-pointer transition-all">تماس باما</li>
+                    <li className="hover:text-green-500 hover:bg-green-200 p-2 rounded-lg cursor-pointer transition-all">درباره ما</li>
+                    <li className="hover:text-green-500 hover:bg-green-200 p-2 rounded-lg cursor-pointer transition-all">مقالات</li>
                 </ul>
             </div>
 
