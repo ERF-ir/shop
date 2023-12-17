@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import Index from './Pages'
+import Index from './Pages/Index'
 import Articles from './Pages/Articles'
 import Login from './Pages/Login'
 import Register from './Pages/Register'

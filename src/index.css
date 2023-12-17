@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 @font-face {
     font-family: 'iran';
     src: url('./assets/fonts/IRANSans_Medium.ttf') ;
@@ -17,4 +20,15 @@
 }
 
 
-
+.swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background-color: #CACACA; /* رنگ پیشفرض آبی را به قرمز تغییر دهید */
+    margin-bottom: 5px!important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #0197F9; /* رنگ نقطه‌های فعال را به سبز تغییر دهید */
+  }
+  
+  
