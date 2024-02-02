@@ -14,7 +14,7 @@ function Footer() {
 
     <>
 
-      <footer className="shadow-[0_0_6px_1px_#E6E6E6] bg-gradient-to-l from-[#fff] to-[#E8F5FF] grid grid-cols-12 ">
+      <footer className="shadow-[0_0_6px_1px_#E6E6E6] rounded-2xl mt-20 bg-gradient-to-l from-[#fff] to-[#E8F5FF] grid grid-cols-12 ">
 
         <div className=" col-span-6 b pl-5 pt-4">
 
