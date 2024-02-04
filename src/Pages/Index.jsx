@@ -19,6 +19,15 @@ import d3 from "../assets/images/d3.png";
 import d4 from "../assets/images/d4.png";
 
 import post1 from "../assets/images/1.png";
+import post2 from "../assets/images/2.png";
+import post3 from "../assets/images/3.png";
+import post4 from "../assets/images/4.png";
+
+import artic1 from "../assets/images/111.png";
+import artic2 from "../assets/images/222.png";
+
+import Ico_user from "../assets/svg-icon/user.svg?react"
+import Ico_eye from "../assets/svg-icon/eye.svg?react"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
@@ -154,14 +163,15 @@ export default function index() {
         </section>
       </section>
 
-      <div className=" space-y-2 mt-28 flex flex-col items-end ">
+      <div className=" space-y-2 mt-52 flex flex-col items-end ">
         <span className="block h-[2px] w-[45%] rounded-md bg-gray-200"></span>
         <span className="block h-[2.5px] w-[35%] rounded-md bg-gray-200"></span>
       </div>
 
+
       <div className="text-right flex-center justify-between relative mt-5">
         <div>
-          <button className="px-5 active:bg-green-200 active:text-green-500 transition-all active:shadow-[5px_5px_7px_#2db05dc2] py-2 shadow-[3px_3px_7px_#2db05dc2] bg-white text-[#22c55e] rounded-lg ">لیست محصولات</button>
+          <button className="px-5 active:bg-green-400 active:text-white transition-all active:shadow-[5px_5px_7px_#2db05dc2] py-2 shadow-[3px_3px_7px_#2db05dc2] bg-white text-[#22c55e] rounded-lg ">لیست محصولات</button>
         </div>
         <div>
           <span className="w-[252px]  bottom-[20%] opacity-20 absolute right-[2%] h-2 rounded bg-[#38d938] block"></span>
@@ -176,44 +186,11 @@ export default function index() {
 
         <div className="col-span-3 relative p-4 bg-white rounded-3xl shadow-[0_5px_8px_#e0e0e0] text-right">
 
-          <span className="block absolute top-[33%] left-[13%]    w-10  h-10 bg-[#DBEAFE] blur-[10px] rounded-full"></span>
-          <span className="block absolute top-[33%] right-[13%]   w-10  h-10 bg-[#DCFCE7] blur-[10px] rounded-full"></span>
+          <span className="block absolute top-[33%] left-[13%]    w-10  h-10 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute top-[33%] right-[13%]   w-10  h-10 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
 
-          <span className="block absolute  top-2 right-[5%]   w-7  h-7 bg-[#DBEAFE] blur-[7px] rounded-full"></span>
-          <span className="block absolute  top-2 left-[5%]  w-7 h-7 bg-[#DCFCE7] blur-[7px] rounded-full"></span>
-
-          <div className=" flex justify-center -mt-[40%]">
-            <img className="w-[70%]" src={post1} alt="" />
-          </div>
-
-          <div className="mt-12">
-            <h1 className="text-[1.3rem] text-[#484848]">کراتین منوهیدرات</h1>
-            <h1 className="text-lg text-gray-400">on</h1>
-          </div>
-
-          <div className="flex-center justify-between mt-7">
-
-            <div className="text-[#22C55E] flex items-end ">
-              <p className="pr-1 text-sm mb-0.5 ">تومان</p>
-              <h1 className=" font-vazir text-[1.3rem]">2,500,000</h1>
-            </div>
-
-            <div>
-              <button className=" px-6 py-1.5 bg-[#FFEDD5] rounded-lg text-[#F97316] ">جزئیات</button>
-            </div>
-
-          </div>
-
-
-
-        </div>
-        <div className="col-span-3 relative p-4 bg-white rounded-3xl shadow-[0_5px_8px_#e0e0e0] text-right">
-
-          <span className="block absolute top-[33%] left-[13%]    w-10  h-10 bg-[#DBEAFE] blur-[10px] rounded-full"></span>
-          <span className="block absolute top-[33%] right-[13%]   w-10  h-10 bg-[#DCFCE7] blur-[10px] rounded-full"></span>
-
-          <span className="block absolute  top-2 right-[5%]   w-7  h-7 bg-[#DBEAFE] blur-[7px] rounded-full"></span>
-          <span className="block absolute  top-2 left-[5%]  w-7 h-7 bg-[#DCFCE7] blur-[7px] rounded-full"></span>
+          <span className="block absolute  top-2 right-[5%]   w-7  h-7 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute  top-2 left-[5%]  w-7 h-7 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
 
           <div className=" flex justify-center -mt-[40%]">
             <img className="w-[70%]" src={post1} alt="" />
@@ -242,14 +219,14 @@ export default function index() {
         </div>
         <div className="col-span-3 relative p-4 bg-white rounded-3xl shadow-[0_5px_8px_#e0e0e0] text-right">
 
-          <span className="block absolute top-[33%] left-[13%]    w-10  h-10 bg-[#DBEAFE] blur-[10px] rounded-full"></span>
-          <span className="block absolute top-[33%] right-[13%]   w-10  h-10 bg-[#DCFCE7] blur-[10px] rounded-full"></span>
+          <span className="block absolute top-[33%] left-[13%]    w-10  h-10 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute top-[33%] right-[13%]   w-10  h-10 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
 
-          <span className="block absolute  top-2 right-[5%]   w-7  h-7 bg-[#DBEAFE] blur-[7px] rounded-full"></span>
-          <span className="block absolute  top-2 left-[5%]  w-7 h-7 bg-[#DCFCE7] blur-[7px] rounded-full"></span>
+          <span className="block absolute  top-2 right-[5%]   w-7  h-7 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute  top-2 left-[5%]  w-7 h-7 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
 
           <div className=" flex justify-center -mt-[40%]">
-            <img className="w-[70%]" src={post1} alt="" />
+            <img className="w-[70%]" src={post2} alt="" />
           </div>
 
           <div className="mt-12">
@@ -275,14 +252,47 @@ export default function index() {
         </div>
         <div className="col-span-3 relative p-4 bg-white rounded-3xl shadow-[0_5px_8px_#e0e0e0] text-right">
 
-          <span className="block absolute top-[33%] left-[13%]    w-10  h-10 bg-[#DBEAFE] blur-[10px] rounded-full"></span>
-          <span className="block absolute top-[33%] right-[13%]   w-10  h-10 bg-[#DCFCE7] blur-[10px] rounded-full"></span>
+          <span className="block absolute top-[33%] left-[13%]    w-10  h-10 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute top-[33%] right-[13%]   w-10  h-10 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
 
-          <span className="block absolute  top-2 right-[5%]   w-7  h-7 bg-[#DBEAFE] blur-[7px] rounded-full"></span>
-          <span className="block absolute  top-2 left-[5%]  w-7 h-7 bg-[#DCFCE7] blur-[7px] rounded-full"></span>
+          <span className="block absolute  top-2 right-[5%]   w-7  h-7 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute  top-2 left-[5%]  w-7 h-7 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
 
           <div className=" flex justify-center -mt-[40%]">
-            <img className="w-[70%]" src={post1} alt="" />
+            <img className="w-[70%]" src={post3} alt="" />
+          </div>
+
+          <div className="mt-12">
+            <h1 className="text-[1.3rem] text-[#484848]">کراتین منوهیدرات</h1>
+            <h1 className="text-lg text-gray-400">on</h1>
+          </div>
+
+          <div className="flex-center justify-between mt-7">
+
+            <div className="text-[#22C55E] flex items-end ">
+              <p className="pr-1 text-sm mb-0.5 ">تومان</p>
+              <h1 className=" font-vazir text-[1.3rem]">2,500,000</h1>
+            </div>
+
+            <div>
+              <button className=" px-6 py-1.5 bg-[#FFEDD5] rounded-lg text-[#F97316] ">جزئیات</button>
+            </div>
+
+          </div>
+
+
+
+        </div>
+        <div className="col-span-3 relative p-4 bg-white rounded-3xl shadow-[0_5px_8px_#e0e0e0] text-right">
+
+          <span className="block absolute top-[33%] left-[13%]    w-10  h-10 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute top-[33%] right-[13%]   w-10  h-10 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
+
+          <span className="block absolute  top-2 right-[5%]   w-7  h-7 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute  top-2 left-[5%]  w-7 h-7 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
+
+          <div className=" flex justify-center -mt-[40%]">
+            <img className="w-[70%]" src={post4} alt="" />
           </div>
 
           <div className="mt-12">
@@ -310,6 +320,306 @@ export default function index() {
 
 
       </section>
+
+
+
+
+
+      <div className=" space-y-2 mt-52 flex flex-col items-end ">
+        <span className="block h-[2px] w-[45%] rounded-md bg-gray-200"></span>
+        <span className="block h-[2.5px] w-[35%] rounded-md bg-gray-200"></span>
+      </div>
+
+
+      <div className="text-right flex-center justify-between relative mt-5">
+        <div>
+          <button className="px-5 active:bg-red-400 active:text-white transition-all active:shadow-[5px_5px_7px_#C03C3C] py-2 shadow-[3px_3px_7px_#C03C3C] bg-white text-[#C03C3C] rounded-lg ">لیست تخفیفات</button>
+        </div>
+        <div>
+          <span className="w-[194px]  bottom-[20%] opacity-30 absolute right-[2%] h-2 rounded bg-[#C03C3C] block"></span>
+          <h1 className="text-3xl mr-8 text-[#C03C3C]">آخرین تخفیفات</h1>
+          <span className="rounded bottom-[30%] absolute right-0 shadow-[0_0_10px_#C03C3C] bg-[#C03C3C] w-4 h-4 block"></span>
+        </div>
+
+      </div>
+
+
+      <section className=" grid grid-cols-12 gap-x-5 mt-[170px]" id="cart">
+
+        <div className="col-span-3 box-border relative p-4 bg-white rounded-3xl shadow-[0_5px_8px_#e0e0e0] text-right">
+
+          <span className="block absolute top-[33%] left-[13%]    w-10  h-10 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute top-[33%] right-[13%]   w-10  h-10 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
+
+          <span className="block absolute  top-2 right-[5%]   w-7  h-7 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute  top-2 left-[5%]  w-7 h-7 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
+
+          <div className=" flex justify-center -mt-[40%]">
+            <img className="w-[70%]" src={post1} alt="" />
+          </div>
+
+          <div className="mt-12">
+            <h1 className="text-[1.3rem] text-[#484848]">کراتین منوهیدرات</h1>
+            <p className="text-lg text-gray-400">on</p>
+          </div>
+
+          <div className="flex items-end text-right -ml-4 ">
+            <button className="py-2 px-4 text-xl text-[#EF4444] font-bold flex-center rounded-r-full    bg-[#FEE2E2] flex-row-reverse">
+              <span className="font-vazir pl-0.5 ">70%</span><span>تخفیف</span>
+            </button>
+          </div>
+
+          <div className="text-[#44403C] mt-3  relative flex items-end ">
+            <p className="pr-1 text-[0.6rem] mb-0.5 ">تومان</p>
+            <span className=" absolute block h-[1.5px] -rotate-[15deg] top-3  w-[4.5rem] rounded bg-gray-400"></span>
+            <h1 className=" font-vazir de text-[0.9rem] ">4,500,000</h1>
+          </div>
+
+          <div className="flex-center justify-between">
+
+            <div className="text-[#22C55E] flex items-end ">
+              <p className="pr-1 text-sm mb-0.5 ">تومان</p>
+              <h1 className=" font-vazir text-[1.3rem]">2,500,000</h1>
+            </div>
+
+
+            <button className=" px-6 py-1.5 bg-[#FFEDD5] rounded-lg text-[#F97316] ">جزئیات</button>
+
+
+          </div>
+
+
+
+        </div>
+        <div className="col-span-3 relative p-4 bg-white rounded-3xl shadow-[0_5px_8px_#e0e0e0] text-right">
+
+          <span className="block absolute top-[33%] left-[13%]    w-10  h-10 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute top-[33%] right-[13%]   w-10  h-10 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
+
+          <span className="block absolute  top-2 right-[5%]   w-7  h-7 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute  top-2 left-[5%]  w-7 h-7 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
+
+          <div className=" flex justify-center -mt-[40%]">
+            <img className="w-[70%]" src={post2} alt="" />
+          </div>
+
+          <div className="mt-12">
+            <h1 className="text-[1.3rem] text-[#484848]">کراتین منوهیدرات</h1>
+            <h1 className="text-lg text-gray-400">on</h1>
+          </div>
+
+          <div className="flex-center justify-between mt-7">
+
+            <div className="text-[#22C55E] flex items-end ">
+              <p className="pr-1 text-sm mb-0.5 ">تومان</p>
+              <h1 className=" font-vazir text-[1.3rem]">2,500,000</h1>
+            </div>
+
+            <div>
+              <button className=" px-6 py-1.5 bg-[#FFEDD5] rounded-lg text-[#F97316] ">جزئیات</button>
+            </div>
+
+          </div>
+
+
+
+        </div>
+        <div className="col-span-3 relative p-4 bg-white rounded-3xl shadow-[0_5px_8px_#e0e0e0] text-right">
+
+          <span className="block absolute top-[33%] left-[13%]    w-10  h-10 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute top-[33%] right-[13%]   w-10  h-10 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
+
+          <span className="block absolute  top-2 right-[5%]   w-7  h-7 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute  top-2 left-[5%]  w-7 h-7 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
+
+          <div className=" flex justify-center -mt-[40%]">
+            <img className="w-[70%]" src={post3} alt="" />
+          </div>
+
+          <div className="mt-12">
+            <h1 className="text-[1.3rem] text-[#484848]">کراتین منوهیدرات</h1>
+            <h1 className="text-lg text-gray-400">on</h1>
+          </div>
+
+          <div className="flex-center justify-between mt-7">
+
+            <div className="text-[#22C55E] flex items-end ">
+              <p className="pr-1 text-sm mb-0.5 ">تومان</p>
+              <h1 className=" font-vazir text-[1.3rem]">2,500,000</h1>
+            </div>
+
+            <div>
+              <button className=" px-6 py-1.5 bg-[#FFEDD5] rounded-lg text-[#F97316] ">جزئیات</button>
+            </div>
+
+          </div>
+
+
+
+        </div>
+        <div className="col-span-3 relative p-4 bg-white rounded-3xl shadow-[0_5px_8px_#e0e0e0] text-right">
+
+          <span className="block absolute top-[33%] left-[13%]    w-10  h-10 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute top-[33%] right-[13%]   w-10  h-10 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
+
+          <span className="block absolute  top-2 right-[5%]   w-7  h-7 bg-[#DBEAFE] blur-[8px] rounded-full"></span>
+          <span className="block absolute  top-2 left-[5%]  w-7 h-7 bg-[#DCFCE7] blur-[8px] rounded-full"></span>
+
+          <div className=" flex justify-center -mt-[40%]">
+            <img className="w-[70%]" src={post4} alt="" />
+          </div>
+
+          <div className="mt-12">
+            <h1 className="text-[1.3rem] text-[#484848]">کراتین منوهیدرات</h1>
+            <h1 className="text-lg text-gray-400">on</h1>
+          </div>
+
+          <div className="flex-center justify-between mt-7">
+
+            <div className="text-[#22C55E] flex items-end ">
+              <p className="pr-1 text-sm mb-0.5 ">تومان</p>
+              <h1 className=" font-vazir text-[1.3rem]">2,500,000</h1>
+            </div>
+
+            <div>
+              <button className=" px-6 py-1.5 bg-[#FFEDD5] rounded-lg text-[#F97316] ">جزئیات</button>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+      <div className=" space-y-2 mt-52 flex flex-col items-end ">
+        <span className="block h-[2px] w-[45%] rounded-md bg-gray-200"></span>
+        <span className="block h-[2.5px] w-[35%] rounded-md bg-gray-200"></span>
+      </div>
+
+
+      <div className="text-right flex-center justify-between relative mt-5">
+        <div>
+          <button className="px-5 active:bg-blue-400 active:text-white transition-all active:shadow-[5px_5px_7px_#009AFF] py-2 shadow-[3px_3px_7px_#009AFF] bg-white text-[#009AFF] rounded-lg ">لیست مقالات</button>
+        </div>
+        <div>
+          <span className="w-[170px]  bottom-[20%] opacity-30 absolute right-[2%] h-2 rounded bg-[#009AFF] block"></span>
+          <h1 className="text-3xl mr-8 text-[#009AFF]">آخرین مقالات</h1>
+          <span className="rounded bottom-[30%] absolute right-0 shadow-[0_0_10px_#009AFF] bg-[#009AFF] w-4 h-4 block"></span>
+        </div>
+
+      </div>
+
+
+      <section className=" grid grid-cols-12 ml-12 gap-x-5  mx-auto   mt-[100px]" id="cart">
+
+        <div className="col-span-6  text-right">
+
+          <div id="parent" className="grid  grid-cols-12">
+
+            <div className=" text-right col-span-6 bg-white px-5 py-2 shadow-[0_0_6px_1px_#E6E6E6] h-[135%] rounded-2xl -mt-[11.5%] ">
+
+              <p className="bg-[#FFEDD5] text-[#F97316] px-4 text-center text-sm py-2.5 -mt-7  w-fit  mx-auto rounded-full ">تغذیه ورزشی</p>
+
+              <h1 className="text-[#44403C] text-2xl mt-7">کراتین منوهیدرات چیست و فوایدش چیست ؟</h1>
+
+              <p className=" text-[#999999] text-center mt-5 " style={{ 'direction': 'rtl' }}>شیر توسط پستانداران ماده تولید میشود و مایعی سفید و مغذی است.
+                شیر گاو یکی از پر مصرف ترین شیر ها است که حاوی کربوهیدرات، چربی، پروتئین ...</p>
+
+              <div className="flex items-end justify-between ">
+                <div className="-mb-[29%]"><button className="px-4 py-2 border border-green-500 text-green-500 rounded-lg transition-all
+                 hover:text-white hover:bg-green-500 active:bg-green-300">ادامه مطلب</button></div>
+
+                <div className="-mb-[29%] flex-center gap-x-3 text-[#999999] text-xs">
+                  <div className=" flex-center">
+                    <p className=" pr-1">عرفان بیات</p>
+                    <Ico_user />
+                  </div>
+                  <div className=" flex-center">
+                    <p className=" text-[13px] pr-1 font-vazir">220</p>
+                    <Ico_eye />
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div className=" col-span-6 flex  flex-col justify-center ">
+              <img src={artic1} alt="" className=" w-[90%]  rounded-r-[60px] h-[100%]" />
+            </div>
+
+
+
+          </div>
+
+
+
+
+
+        </div>
+        <div className="col-span-6  text-right">
+
+          <div id="parent" className="grid grid-cols-12">
+
+            <div className=" text-right col-span-6 bg-white px-5 py-2 shadow-[0_0_6px_1px_#E6E6E6] h-[135%] rounded-2xl -mt-[11.5%] ">
+
+              <p className="bg-[#FFEDD5] text-[#F97316] px-4 text-center text-sm py-2.5 -mt-7  w-fit  mx-auto rounded-full ">تغذیه ورزشی</p>
+
+              <h1 className="text-[#44403C] text-2xl mt-7">کراتین منوهیدرات چیست و فوایدش چیست ؟</h1>
+
+              <p className=" text-[#999999] text-center mt-5 " style={{ 'direction': 'rtl' }}>شیر توسط پستانداران ماده تولید میشود و مایعی سفید و مغذی است.
+                شیر گاو یکی از پر مصرف ترین شیر ها است که حاوی کربوهیدرات، چربی، پروتئین ...</p>
+
+              <div className="flex items-end justify-between ">
+                <div className="-mb-[29%]"><button className="px-4 py-2 border border-green-500 text-green-500 rounded-lg transition-all
+       hover:text-white hover:bg-green-500 active:bg-green-300">ادامه مطلب</button></div>
+
+                <div className="-mb-[29%] flex-center gap-x-3 text-[#999999] text-xs">
+                  <div className=" flex-center">
+                    <p className=" pr-1">عرفان بیات</p>
+                    <Ico_user />
+                  </div>
+                  <div className=" flex-center">
+                    <p className=" text-[13px] pr-1 font-vazir">220</p>
+                    <Ico_eye />
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div className=" col-span-6 flex  flex-col justify-center ">
+              <img src={artic1} alt="" className=" w-[90%]  rounded-r-[60px] h-[100%]" />
+            </div>
+
+
+
+          </div>
+
+
+
+
+
+        </div>
+
+
+
+      </section>
+
 
 
 

@@ -14,7 +14,7 @@ function Footer() {
 
     <>
 
-      <footer className="shadow-[0_0_6px_1px_#E6E6E6] rounded-2xl mt-20 bg-gradient-to-l from-[#fff] to-[#E8F5FF] grid grid-cols-12 ">
+      <footer className="shadow-[0_0_6px_1px_#E6E6E6] rounded-2xl mt-20 bg-gradient-to-l mt-52 from-[#fff] to-[#E8F5FF] grid grid-cols-12 ">
 
         <div className=" col-span-6 b pl-5 pt-4">
 
@@ -22,8 +22,8 @@ function Footer() {
           <div className="relative">
             <button className="rounded-md mr-2 p-2.5 bg-[#E2E8F0] text-[#3B82F6] ">ارسال</button>
             <input type="text" placeholder="دریافت اطلاعات و تخفیف به ایمیل شما"
-              className=" text-right pr-[50px] rounded-md placeholder:text-[#CAC7C7] w-[40%] placeholder:text-xs  outline-none py-2.5  border border-[#BBBBBB] " />
-            <Ico_patch className="absolute top-2 right-[345px]" />
+              className=" text-right pr-[60px] rounded-md placeholder:text-[#CAC7C7] w-[40%] placeholder:text-xs  outline-none py-2.5  border border-[#BBBBBB] " />
+            <Ico_patch className="absolute top-2 right-[362px]" />
           </div>
 
           <div className="flex-center mt-10">
